@@ -1,4 +1,4 @@
-module.exports = {
-  database: 'mongodb://localhost:27017/meanauth',
-  secret: 'yoursecret'
+module.exports={
+    database:'mongodb://robis1221:whatthefuck11@localhost:27017/meandatabase',
+    secret:'roberts'
 }
