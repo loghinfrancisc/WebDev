@@ -16,7 +16,10 @@ import { ContactComponent } from './components/contact/contact.component';
 
 import { FormsModule } from '@angular/forms';
 import { ValidateService } from './services/validate.service';
+import { AuthService } from './services/auth.service';
 import { FlashMessagesModule } from 'angular2-flash-messages';
+
+import { HttpClientModule } from '@angular/common/http';
 
 const appRoutes: Routes = [
   {path:'', component: HomeComponent},
@@ -47,9 +50,10 @@ const appRoutes: Routes = [
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
     FormsModule,
-    FlashMessagesModule.forRoot()
+    FlashMessagesModule.forRoot(),
+    HttpClientModule
   ],
-  providers: [ValidateService],
+  providers: [ValidateService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
