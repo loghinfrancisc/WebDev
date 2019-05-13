@@ -1,0 +1,23 @@
+{"imageTiles":[
+    {
+        "id":0,
+        "mainImg":"assets/1.png",
+        "onHoverImg":"assets/3.gif",
+        "entered":false,
+        "route":"google.com",
+        "title":"Project #1",
+        "shorttext":"This is a short description of the project 1",
+        "longtext":"This is a longer description of the project 1. It's not much longer though"
+        },
+        {
+            "id":1,
+            "mainImg":"assets/1.png",
+            "onHoverImg":"assets/3.gif",
+            "entered":false,
+            "route":"youtube.com",
+            "title":"Project #2",
+        "shorttext":"This is a short description of the project 2",
+        "longtext":"This is a longer description of the project 2. It's not much longer though"
+            }
+    ]
+}
