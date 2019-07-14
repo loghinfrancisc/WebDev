@@ -8,14 +8,23 @@
     "start": "node app"
   },
   "dependencies": {
+    "@angular/cli": "^7.3.8",
+    "@angular/common": "^7.2.13",
+    "@angular/core": "^7.2.13",
+    "@angular/http": "^7.2.13",
+    "@angular/platform-browser": "^7.2.13",
+    "angular-cli": "^1.0.0-beta.28.3",
     "bcryptjs": "*",
     "body-parser": "*",
     "cors": "*",
     "express": "*",
     "jsonwebtoken": "*",
     "mongoose": "^5.5.2",
+    "nativescript-angular": "^7.2.3",
     "passport": "*",
-    "passport-jwt": "*"
+    "passport-jwt": "*",
+    "rxjs-compat": "^6.4.0",
+    "tns-core-modules": "^5.3.1"
   },
   "author": "Francisc",
   "license": "ISC"
